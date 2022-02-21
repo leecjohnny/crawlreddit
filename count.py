@@ -57,9 +57,6 @@ for keyword in keywords:
         for result_type in result_types:
             fetch_results(result_type, subreddit, keyword)
 
-
-fetch_results('comment', 'networking', 'cloudflare')
-
 file = open('data/reddit_results.csv', 'w+', newline='')
 
 with file:
